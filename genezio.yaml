@@ -1,0 +1,11 @@
+frontend:
+    path: ./
+    publish: ./
+    scripts:
+        build: npm install
+        deploy:
+            - npm install
+    subdomain: FYP
+name: FYP
+region: us-east-1
+yamlVersion: 2
